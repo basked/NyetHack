@@ -7,7 +7,10 @@ fun main() {
     // Аура
     val auraVisible = isBlessed && healthPoints > 50 || isImmortal
 //    if (isBlessed && healthPoints > 50 || isImmortal) {
-   if (auraVisible) {
+
+
+
+    if (auraVisible) {
         println("GREEN")
     } else {
         println("NONE")
